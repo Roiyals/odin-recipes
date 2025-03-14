@@ -1,0 +1,41 @@
+/* NOTES */
+
+/* 
+COLOR THEME:
+#E52020 
+#FBA518
+#F9CB43
+#A89C29 
+*/
+
+/* ==================================  */
+/* GENERAL STYLES  */
+
+* {
+  font-family: Helvetica, sans-serif;
+}
+
+/* ==================================  */
+/* MAIN PAGE */
+
+.main-page-h1 {
+  color: #e52020;
+}
+
+.recipe-link {
+  color: #fba518;
+}
+
+/* ==================================  */
+/* RECIPE PAGES */
+
+.recipe-header-name {
+  color: #e52020;
+}
+
+.short-description,
+.ingredients,
+.steps,
+.home-button {
+  color: #fba518;
+}
