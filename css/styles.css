@@ -8,15 +8,65 @@ COLOR THEME:
 #A89C29 
 */
 
-/* ==================================  */
-/* GENERAL STYLES  */
+/* ==================================  GENERAL STYLES  
+==================================   */
+
+/* GLOBAL RESET */
+
+*,
+*::before,
+*::after {
+  box-sizing: inherit;
+}
 
 * {
   font-family: Helvetica, sans-serif;
+  padding: 0;
+  margin: 0;
 }
 
-/* ==================================  */
-/* MAIN PAGE */
+body {
+  background-color: #a89c29;
+}
+
+/* CENTERING */
+
+.container {
+  width: 1200px;
+  margin: 0 auto;
+  padding: 20px 20px 0px;
+  background-color: #fff;
+  border-left: 5px #333 solid;
+  border-right: 5px #333 solid;
+}
+
+h1,
+.short-description,
+.recipes {
+  text-align: center;
+}
+
+img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+/* PAGE LAYOUTS, SECTION SPACING, LINE HEIGHT */
+h1,
+section {
+  margin-bottom: 20px;
+}
+
+h1,
+h2,
+p,
+li {
+  line-height: 1.6;
+}
+
+/* ==================================  MAIN PAGE
+==================================   */
 
 .main-page-h1 {
   color: #e52020;
@@ -26,8 +76,8 @@ COLOR THEME:
   color: #fba518;
 }
 
-/* ==================================  */
-/* RECIPE PAGES */
+/* ==================================  RECIPE PAGES
+==================================   */
 
 .recipe-header-name {
   color: #e52020;
@@ -38,4 +88,18 @@ COLOR THEME:
 .steps,
 .home-button {
   color: #fba518;
+}
+
+.description-section {
+  border: 5px #333 dotted;
+  padding: 10px;
+}
+
+.short-description {
+  text-transform: uppercase;
+}
+
+ul,
+ol {
+  margin-left: 20px;
 }
